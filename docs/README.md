@@ -17,7 +17,7 @@ To run the notebooks in this project, make sure you have the following dependenc
 pip install pandas numpy scikit-learn jupyter seaborn matplotlib
 
 
-## Usage
+## **Usage**
 To use this project, follow these steps:
 
 1. **Clone the Repository**: First, you need to clone the repository to your local machine. Open your terminal or command prompt and run:
@@ -49,6 +49,8 @@ To use this project, follow these steps:
 
 
 
+## Notebooks
+The notebooks included in this project cover various aspects of the data analysis process. For detailed information about each notebook, refer to the [Notebooks README](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md).
 
 
 
@@ -77,4 +79,16 @@ git push origin feature/your-feature-name
 
 6. **Open a Pull Request: Go to the original repository and click on "New Pull Request" to submit your changes.
 
+## **License**
+```plaintext
+MIT License
 
+Copyright (c) [2024] [Nimisha Singh]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+...
