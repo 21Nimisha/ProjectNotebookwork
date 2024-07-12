@@ -6,7 +6,7 @@ This project analyzes housing trends in Gurgaon using advanced data science tech
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Notebooks]([notebooks](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md))
+3. [Notebooks](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md)
 4. [Contributing](#contributing)
 5. [License](#license)
 
