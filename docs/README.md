@@ -49,9 +49,10 @@ To use this project, follow these steps:
 
 
 
-## Notebooks
-The notebooks included in this project cover various aspects of the data analysis process. For detailed information about each notebook, refer to the [Notebooks README](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md).
 
+
+## Notebooks
+The notebooks included in this project cover various aspects of the data analysis process. For detailed information about each notebook, refer to the [Notebooks README](notebooks/README.md).
 
 
 
