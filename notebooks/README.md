@@ -15,6 +15,7 @@ Welcome to the Real Estate Data Analysis Project, where we explore and analyze h
 This notebook lays the groundwork for further data cleaning and analysis by ensuring the dataset is clean and well-understood.
 
 ### Notebook 2: Basic Data Preprocessing for Independent House Data
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/houses%20data%20-%20preprocessing%20(Notebook%202).ipynb)
 **Summary:** This notebook focuses on the basic preprocessing of the independent house dataset, similar to the flats data. The following steps were completed:
 - **Duplicate Values Check:** Verified that there were no duplicate entries in the dataset.
 - **Missing Values Check:** Identified missing values across most columns.
@@ -24,6 +25,7 @@ This notebook lays the groundwork for further data cleaning and analysis by ensu
 The outcome of this notebook is a cleaned version of the independent house data, saved as "house_cleaned.csv", ready for further analysis.
 
 ### Notebook 3: Merging Cleaned Datasets
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/merge%20flat%20and%20house%20cleaned%20data%20%20-%20Notebook3.ipynb)
 **Summary:** In this notebook, the focus was on merging the cleaned datasets of flats and independent houses. The key steps undertaken include:
 - **Loading Cleaned Data:** Imported the cleaned datasets for flats and independent houses.
 - **Merging Datasets:** Combined both datasets into a single dataset to have a comprehensive view of properties.
@@ -32,6 +34,7 @@ The outcome of this notebook is a cleaned version of the independent house data,
 This step unified the data from different property types into one consolidated file, facilitating holistic analysis in subsequent steps.
 
 ### Notebook 4: Further Cleaning and Feature Extraction
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/2nd%20level%20cleaning%20on%20Gurgaon%20properties%20data%20-%20Notebook4.ipynb)
 **Summary:** In this notebook, further cleaning and feature extraction were performed on the final merged dataset. The following steps were completed:
 - **Property Name Cleaning:** Removed extraneous words and numbers from "Property_name" to extract only the essential property name.
 - **Sector Extraction:** Created a new column "Sector" by extracting sector information from the cleaned "Property_name".
