@@ -45,6 +45,7 @@ This step unified the data from different property types into one consolidated f
 This notebook enhanced the dataset's quality by extracting meaningful features and removing redundant information, resulting in a more refined dataset for analysis.
 
 ### Notebook 5: Detailed Data Transformation and Feature Engineering
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Feature%20-%20Engineering%20(upon%20some%20column)%20-%20Notebook%205.ipynb)
 **Summary:** This notebook focuses on enhancing the dataset through detailed data transformation and feature engineering. Key steps include:
 - **Area with Type:** Split "areaWithType" into three columns: "Super Built-up Area", "Built-up Area", and "Carpet Area". Standardized all area values to square feet.
 - **Additional Room Encoding:** One-hot encoded additional room types (Servant, Pooja, Study, Store, Others).
@@ -56,6 +57,8 @@ This notebook enhanced the dataset's quality by extracting meaningful features a
 The resulting dataset, saved as "gurgaon_properties_cleaned_v2.csv", is now more structured and informative for subsequent analysis.
 
 ### Notebook 6: Exploratory Data Analysis (EDA)
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/EDA%20-%20Univariate%20Analysis%20-%20Notebook%206.ipynb)
+
 **Summary:** This notebook focuses on Exploratory Data Analysis (EDA) to understand the dataset's characteristics and identify key patterns and insights. The steps involved are:
 1. **Univariate Analysis:** Analyzed each column to understand data distribution, missing values, and potential outliers.
    - **Society:** Top 75 apartments account for approximately 50% of the data.
@@ -83,15 +86,18 @@ The resulting dataset, saved as "gurgaon_properties_cleaned_v2.csv", is now more
 This EDA provided a comprehensive understanding of the data, which is crucial for feature selection and predictive modeling.
 
 ### Notebook 7: Exploratory Data Analysis (EDA) with Pandas Profiling
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/EDA%20-%20Pandas%20Profiling%20-%20Notebook%207.ipynb)
 **Summary:** This notebook conducts an extensive exploratory data analysis using Pandas Profiling, generating an interactive report that summarizes the dataset's characteristics, including data types, missing values, correlations, and distributions. This provides valuable insights into the data's structure and informs subsequent analysis steps.
 
 ### Notebook 8: Multivariate Analysis of Property Data
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/EDA%20-%20Multivariate%20Analysis%20-%20Notebook%208.ipynb)
 **Summary:** This notebook conducts a multivariate analysis examining the relationships between property type and various factors, including price, area, price per square foot, and luxury score. Key visualizations include heatmaps and bar plots analyzing property characteristics and sector trends. Findings indicate that:
 - Sectors 25, 26, and 27, owned by DLF, are the most expensive.
 - Sectors 1 to 10, known as "old Gurgaon," have property prices ranging from 1 lakh to 2 crore.
 - Newer sectors (above 70) tend to have lower prices due to ongoing development.
 
 ### Notebook 9: Outlier Treatment and Analysis
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Outlier%20treatment%20-%20Notebook%209.ipynb)
 **Summary:** This notebook focuses on identifying and addressing outliers in key columns, including:
 - Price
 - Price per sqft
@@ -105,6 +111,7 @@ This EDA provided a comprehensive understanding of the data, which is crucial fo
 It also calculates the area/bedroom ratio to detect additional outliers. Outliers are tackled using logical reasoning to ensure data integrity and improve model performance, enhancing the overall quality of the dataset for further analysis.
 
 ### Notebook 10: Data Imputation and Handling Missing Values
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Missing%20Value%20Imputation%20-%20Notebook%2010.ipynb)
 **Summary:** This notebook addresses missing values in the dataset by filling the Built-up Area column using Super Built-up Area, Carpet Area, and Area, due to over 50% missing entries. Additionally, it identifies and addresses missing values in:
 - Society (1 row)
 - Floor Number (17 rows)
@@ -114,6 +121,7 @@ It also calculates the area/bedroom ratio to detect additional outliers. Outlier
 This ensures data completeness for further analysis.
 
 ### Notebook 11: Feature Selection Techniques
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Feature%20Selection%20-%20feature%20Engineering%20Notebook%2011.ipynb)
 **Summary:** This notebook applies eight feature selection techniques to identify key predictors of property prices:
 1. **Correlation Analysis:** Reveals strong linear dependencies, particularly that Built-up Area and the number of bedrooms significantly influence price.
 2. **Random Forest Feature Importance:** Indicates Built-up Area as the most important feature, highlighting its critical role in predictions.
@@ -127,11 +135,14 @@ This ensures data completeness for further analysis.
 Overall, Built-up Area is identified as the most critical feature across various techniques, while some features show negative importance values, suggesting minimal impact on the target variable.
 
 ### Notebook 12: Model Training and Evaluation
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Baseline%20Model%20-%20Notebook%2012.ipynb)
+
 **Summary:** In this notebook, after performing feature selection, One-Hot Encoding, Standard Scaling, and Log Transformation were applied through a Pipeline. Two models, Linear Regression and Support Vector Machine (SVR), were trained and evaluated:
 - **Mean Absolute Error (MAE) for Linear Regression:** 0.64, indicating a prediction error of 64 lakhs. For example, if the actual property price is 1 crore, the model predicts 1.64 crores, showcasing significant deviation.
 - **SVR:** Achieved a reduced MAE, improving predictions by 11 lakhs compared to Linear Regression, demonstrating better model performance for the dataset.
 
 ### Notebook 13: Model Selection and Finalization
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Model%20Selection%20-%20Notebook%2013.ipynb)
 **Summary:** This notebook is crucial for selecting the final model for deployment. Key steps include:
 1. **Data Preprocessing:** Applied Ordinal Encoding to categorical columns and used a Column Transformer to standardize numerical features and encode categorical features.
 2. **Model Evaluation:** Implemented K-fold cross-validation to assess model performance, with a focus on Mean Absolute Error (MAE). Linear Regression produced an MAE of 0.94, while tree-based models significantly outperformed linear models.
