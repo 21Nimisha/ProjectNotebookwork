@@ -5,6 +5,7 @@ Welcome to the Real Estate Data Analysis Project, where we explore and analyze h
 ## Notebooks Overview
 
 ### Notebook 1: Basic Data Preprocessing
+[View Notebook](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/Flats%20data%20-%20preprocessing%20(notebook1).ipynb)
 **Summary:** In this notebook, the primary focus was on performing basic data preprocessing tasks on the flats dataset. The following key steps were undertaken:
 - **Duplicate Values Check:** Ensured the dataset was free from duplicate entries.
 - **Missing Values Check:** Identified columns with missing values, noting that most columns had some missing data.
