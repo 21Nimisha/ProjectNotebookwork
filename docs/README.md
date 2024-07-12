@@ -46,3 +46,35 @@ To use this project, follow these steps:
 
 
 
+
+
+
+
+
+
+
+
+
+## **Contributing**
+Contributions to the project are welcome! If you would like to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of the repository page.
+2. **Create a New Branch**: Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+
+3. **Make Your Changes: Make the necessary changes in your local repository.
+ ```bash
+git commit -m "Add your message here"
+
+4. **Commit Your Changes: Commit your changes with a descriptive message.
+```bash
+git commit -m "Add your message here"
+
+5. **Push to Your Fork: Push your changes to your forked repository:
+```bash
+git push origin feature/your-feature-name
+
+6. **Open a Pull Request: Go to the original repository and click on "New Pull Request" to submit your changes.
+
+
