@@ -24,9 +24,9 @@ I implement a sophisticated preprocessing pipeline with One-Hot Encoding and Sca
 I finalize the most effective models through rigorous evaluation and hyperparameter tuning, ultimately selecting Random Forest and Extra Trees for deployment-ready performance.
 
 ## 📈 Key Findings
-	- **Premium Sectors**: Sectors 25, 26, and 27, owned by DLF, showcase the highest property prices.
-	- **Old vs. New Gurgaon**: Sectors 1 to 10 represent "Old Gurgaon," with prices ranging from 1 lakh to 2 crores, while newer sectors (above 70) are still developing and more affordable.
-	- **Data Insights**: My analysis reveals intricate relationships between property features, driving informed decision-making in the real estate landscape.
+- **Premium Sectors**: Sectors 25, 26, and 27, owned by DLF, showcase the highest property prices.
+- **Old vs. New Gurgaon**: Sectors 1 to 10 represent "Old Gurgaon," with prices ranging from 1 lakh to 2 crores, while newer sectors (above 70) are still developing and more affordable.
+- **Data Insights**: My analysis reveals intricate relationships between property features, driving informed decision-making in the real estate landscape.
 
 ## 🔍 Final Model Selection
 After extensive testing, I identify Extra Trees and Random Forest as the top contenders, achieving a remarkable drop in Mean Absolute Error (MAE) from 0.94 to 0.50. These models are now primed for deployment, ready to deliver real-time price predictions.
