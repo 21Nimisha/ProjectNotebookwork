@@ -5,22 +5,22 @@ In this project, I dive into the dynamic world of real estate in Gurgaon, utiliz
 
 ## 📚 *Notebooks Overview*
 
-### *Notebook 1*: Data Import and Cleaning
+### *1*: Data Import and Cleaning
 I start by importing the dataset and executing initial cleaning steps to ensure data quality and readiness for analysis.
 
-### *Notebook 2*: Exploratory Data Analysis (EDA)
+### *2*: Exploratory Data Analysis (EDA)
 I perform a deep-dive analysis using Pandas Profiling, uncovering hidden patterns and relationships in the dataset to lay the groundwork for informed modeling.
 
-### *Notebook 3*: Outlier Treatment and Analysis
+### *3*: Outlier Treatment and Analysis
 I identify and manage outliers in critical features like Price and Area, using logical reasoning to enhance the dataset's integrity and robustness.
 
-### *Notebook 4*: Feature Selection Techniques
+### *4*: Feature Selection Techniques
 I leverage eight powerful feature selection techniques, revealing that Built-up Area is the standout predictor for property prices, optimizing model performance through informed feature choices.
 
-### *Notebook 5*: Model Training and Evaluation
+### *5*: Model Training and Evaluation
 I implement a sophisticated preprocessing pipeline with One-Hot Encoding and Scaling, evaluating models like Linear Regression and SVR. I discover that SVR dramatically outperforms linear models, significantly reducing prediction errors.
 
-### *Notebook 6*: Model Selection and Finalization
+### *6*: Model Selection and Finalization
 I finalize the most effective models through rigorous evaluation and hyperparameter tuning, ultimately selecting Random Forest and Extra Trees for deployment-ready performance.
 
 ## 📈 Key Findings
@@ -42,3 +42,8 @@ I have packaged the final model and preprocessing steps for deployment, creating
 - **XGBoost**: For advanced boosting algorithms.
 - **Matplotlib/Seaborn**: For stunning visualizations and insights.
 
+## 📂 Main Resources
+
+- [Notebooks](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md)
+- [Documentation](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/docs/doc.md)
+- [Data](https://github.com/21Nimisha/ProjectNotebookwork/tree/main/data)
