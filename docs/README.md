@@ -53,14 +53,8 @@ To use this project, follow these steps:
 
 
 
-
-
-
-
-## Notebooks
+## **Notebooks**
 The notebooks included in this project cover various aspects of the data analysis process. For detailed information about each notebook, refer to the [Notebooks README](notebooks/README.md).
-
-
 
 
 
@@ -73,22 +67,22 @@ Contributions to the project are welcome! If you would like to contribute, pleas
    git checkout -b feature/your-feature-name
     ```
 
-3. **Make Your Changes: Make the necessary changes in your local repository.
+3. **Make Your Changes**:  Make the necessary changes in your local repository.
  ```bash
 git commit -m "Add your message here"
  ```
 
-4. **Commit Your Changes: Commit your changes with a descriptive message.
+4. **Commit Your Changes** : Commit your changes with a descriptive message.
 ```bash
 git commit -m "Add your message here"
  ```
 
-5. **Push to Your Fork: Push your changes to your forked repository:
+5. **Push to Your Fork** : Push your changes to your forked repository:
 ```bash
 git push origin feature/your-feature-name
  ```
 
-6. **Open a Pull Request: Go to the original repository and click on "New Pull Request" to submit your changes.
+6. **Open a Pull Request** : Go to the original repository and click on "New Pull Request" to submit your changes.
 
 ## **License**
 ```plaintext
