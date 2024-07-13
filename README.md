@@ -45,6 +45,5 @@ I have packaged the final model and preprocessing steps for deployment, creating
 ## 📂 Main Resources
 
 - [Notebooks](https://github.com/21Nimisha/ProjectNotebookwork/blob/main/notebooks/README.md)
-- [Documentation](https://github.com/21Nimisha/ProjectNotebookwork/tree/main/docs.md)
-- https://github.com/21Nimisha/ProjectNotebookwork/tree/main/docs
+- [Documentation](https://github.com/21Nimisha/ProjectNotebookwork/tree/main/docs)
 - [Data](https://github.com/21Nimisha/ProjectNotebookwork/tree/main/data)
