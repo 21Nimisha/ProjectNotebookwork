@@ -6,10 +6,10 @@ This project analyzes housing trends in Gurgaon using advanced data science tech
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Notebooks](#notebooks)
-4. [Contributing](#contributing)
-5. [License](#license)
-
+3. [Data](#data)
+4. [Notebooks](#notebooks)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 
 ## Installation
@@ -49,6 +49,10 @@ To use this project, follow these steps:
 5. **View Results**: After running the notebooks, you can analyze the results and visualizations generated in each notebook to gain insights into the housing trends in Gurgaon.
 
 6. **Export Results**: If applicable, you can export any processed data or model results from the notebooks for further use or analysis.
+
+
+## **Data**
+All CSV files required for the analysis should be placed in the data folder within the project directory. Ensure that this folder contains all necessary datasets for the notebooks to run correctly.
 
 
 
