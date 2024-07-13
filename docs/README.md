@@ -40,19 +40,31 @@ To use this project, follow these steps:
    pip install pandas numpy scikit-learn jupyter seaborn matplotlib
     ```
 
-4. **Run Notebooks**: Open Jupyter Notebook and navigate to the `notebooks/` folder. You can run any of the notebooks to explore the analysis and insights.
+4. **Place CSV Files** : Ensure all necessary CSV files are placed in the data folder. If the folder does not exist, create it:
+
+ ```bash
+    mkdir data
+ ```
+Then, move your CSV files into this folder. For example, using the command line:
+
+```bash
+mv your_file.csv data/
+ ```
+
+5. **Run Notebooks**: Open Jupyter Notebook and navigate to the `notebooks/` folder. You can run any of the notebooks to explore the analysis and insights.
 
    ```bash
    jupyter notebook
     ```
 
-5. **View Results**: After running the notebooks, you can analyze the results and visualizations generated in each notebook to gain insights into the housing trends in Gurgaon.
+6. **View Results**: After running the notebooks, you can analyze the results and visualizations generated in each notebook to gain insights into the housing trends in Gurgaon.
 
-6. **Export Results**: If applicable, you can export any processed data or model results from the notebooks for further use or analysis.
+7. **Export Results**: If applicable, you can export any processed data or model results from the notebooks for further use or analysis.
 
 
 ## **Data**
 All CSV files required for the analysis should be placed in the data folder within the project directory. Ensure that this folder contains all necessary datasets for the notebooks to run correctly.
+You can find the data folder here[data]( https://github.com/21Nimisha/ProjectNotebookwork/tree/main/data)
 
 
 
